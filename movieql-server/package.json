@@ -1,0 +1,19 @@
+{
+  "name": "movieql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.3.3",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "node-fetch": "^3.3.0"
+  },
+  "type": "module"
+}
